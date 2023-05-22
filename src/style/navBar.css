@@ -1,0 +1,444 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+ * {
+     overflow-x: hidden;
+ }
+
+ nav {
+     width: 100%;
+     background-color: rgb(36, 115, 119);
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 120px;
+ }
+
+ .logo {
+     width: 5vw;
+     border-radius: 10px;
+ }
+
+ main {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ main a {
+     text-decoration: none;
+     color: white;
+     font-size: 1rem;
+     margin: 0 23px;
+     font-family: 'poppins', sans-serif;
+     font-weight: 500;
+ }
+
+ main a:hover {
+     color: rgb(2, 255, 171);
+ }
+
+ div input {
+     border: none;
+     border-radius: 10px;
+     padding: 15px;
+ }
+
+ main .icon {
+     color: white;
+     font-size: 1.5rem;
+ }
+
+ .navigations {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     cursor: pointer;
+ }
+
+ .search {
+     display: flex;
+     flex-direction: row;
+     gap: 20px;
+     align-items: center;
+ }
+
+ .locate {
+     color: white;
+ }
+
+ .location {
+     color: black;
+     border: 3px solid white;
+     border-radius: 5px;
+     font-size: 10px;
+     padding: 2%;
+ }
+
+ .img {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     color: white;
+     font-size: 1.5rem;
+ }
+
+ .section-1 {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     margin-left: 100px;
+     margin-top: -40px;
+     position: absolute;
+ }
+
+ .head-1 {
+     color: darkblue;
+     margin-bottom: 0;
+     font-size: 5rem;
+ }
+
+ .text-1 {
+     margin-top: 0;
+     color: darkblue;
+     font-size: 2rem;
+ }
+
+ .image {
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     align-items: center;
+ }
+
+ .image img {
+     width: 4vw;
+     height: 6vh;
+ }
+
+ .btns {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     margin-top: 15px;
+     gap: 20px;
+     width: 100vw;
+     height: 6vh;
+     overflow-y: hidden;
+ }
+
+
+ .btn1 {
+     border: 2px solid rgb(36, 115, 119);
+     background-color: white;
+     border-radius: 20px;
+     color: rgb(36, 115, 119);
+     padding: 7px;
+     cursor: pointer;
+ }
+
+ .btn2 {
+     border: 2px solid white;
+     background-color: rgb(36, 115, 119);
+     border-radius: 20px;
+     color: white;
+     padding: 7px;
+     cursor: pointer;
+ }
+
+ .section-2 {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 120vw;
+     height: 40vh;
+     margin-left: 100px;
+     margin-top: 50px;
+ }
+
+ .section-2 img {
+     border-radius: 30px;
+ }
+
+ hr {
+     border: 0;
+     background: rgb(36, 115, 119);
+     height: 5.2px;
+     margin: 60px 84px;
+     border-radius: 20px;
+ }
+
+ .payment {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     color: rgb(36, 115, 119);
+     font-size: 20px;
+     font-weight: 700;
+     cursor: pointer;
+ }
+
+ .symbol {
+     width: 2vw;
+     height: 5vh;
+ }
+
+ .box-1 {
+     width: 100%;
+     height: 50px;
+     background-color: rgb(165, 207, 209);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow-y: hidden;
+ }
+
+ .box-1 h1 {
+     color: rgb(24, 83, 86);
+     font-size: 2rem;
+ }
+
+ .design {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .card {
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+     height: 50vh;
+     width: 50%;
+     display: flex;
+     justify-content: center;
+     /* align-items: end; */
+     position: relative;
+     overflow-y: hidden;
+ }
+
+ .gradient {
+     position: absolute;
+     background-image: linear-gradient(0deg, black, transparent);
+     height: 100%;
+     width: 100%;
+ }
+
+ .p-2 {
+     color: white;
+     font-size: 2rem;
+     position: absolute;
+     top: 70%;
+
+ }
+
+ .p-1 {
+     background-color: greenyellow;
+     color: white;
+     position: absolute;
+     left: 80%;
+     width: 9vw;
+     height: 32px;
+     font-size: 11px;
+     padding-left: 30px;
+     font-weight: 900;
+ }
+
+ .grocery {
+     width: 95%;
+     height: 50vh;
+ }
+
+ .consult {
+     width: 95%;
+     height: 50vh;
+ }
+
+ @media (min-width:1000px) and (max-width:1440px) {
+     div input {
+         padding: 10px;
+     }
+
+     .search {
+         gap: 10px;
+     }
+
+     main a {
+         margin: 0 15px;
+     }
+
+     .head-1 {
+         font-size: 4rem;
+     }
+
+     .text-1 {
+         font-size: 1.5rem;
+     }
+
+     .image {
+         gap: 10px;
+     }
+
+     .image img {
+         width: 3vw;
+         height: 5vh;
+     }
+
+     .btns {
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-start;
+         margin-top: 15px;
+         gap: 20px;
+         width: 30vw;
+         height: 6vh;
+     }
+
+     .section-2 {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         width: 120vw;
+         height: 30vh;
+         margin-left: 100px;
+         margin-top: 50px;
+     }
+
+     .payment {
+         font-size: 15px;
+     }
+
+     .symbol {
+         width: 2vw;
+         height: 5vh;
+     }
+ }
+
+ @media (min-width:768px) and (max-width:1000px) {
+     div input {
+         padding: 5px;
+     }
+
+     .search {
+         gap: 7px;
+     }
+
+     main a {
+         font-size: 10px;
+         margin: 0 6px;
+     }
+
+     .location {
+         color: black;
+         border: 2px solid white;
+         border-radius: 5px;
+         font-size: 8px;
+         padding: 5px;
+     }
+
+     .head-1 {
+         font-size: 3rem;
+     }
+
+     .text-1 {
+         font-size: 1.3rem;
+     }
+
+     .image {
+         gap: 10px;
+     }
+
+     .image img {
+         width: 3vw;
+         height: 4vh;
+     }
+
+     .btns {
+         margin-top: 15px;
+         gap: 10px;
+         width: 25vw;
+         height: 7vh;
+     }
+
+     .section-2 {
+         width: 120vw;
+         height: 20vh;
+
+     }
+
+     .payment {
+         font-size: 10px;
+     }
+
+     .symbol {
+         width: 3vw;
+         height: 3vh;
+     }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* nav{
+    width: 100%;
+padding: 1rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: sticky;
+background-color:$first ;
+top: 0%;
+z-index: 10;
+
+
+> h1 {
+    text-transform: uppercase;
+}
+
+> main{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end ;
+    
+    > a {
+        color: $dark;
+        margin: 1rem;
+        
+        
+        &:hover{
+        color: $third;
+    }
+}
+}
+} */
